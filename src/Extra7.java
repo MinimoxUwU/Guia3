@@ -29,21 +29,15 @@ public class Extra7 {
                 System.out.println("Desea ingresar otro numero? S/N");
                 rta=leer.next();
             }
-            
             if ("n".equals(rta)){
                 break;
             }
             System.out.println("Ingrese");
             alt=leer.nextInt();
             if (alt>0){
-                
-            
-          if (cont==0){
-               min=alt;
-            }
             suma+=alt;
             cont++;
-            if (alt<min){
+            if (alt<min||cont==0){
                 min=alt;
             }else if(alt>max){
                 max=alt;
