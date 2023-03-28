@@ -24,7 +24,7 @@ public class Ejercicio4 {
             System.out.println("Correcto");
     }else {
             System.out.println("Incorrecto");
-        }
+        }   
     }
     
 }

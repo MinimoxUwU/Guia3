@@ -19,8 +19,7 @@ public class Ejercicio6 {
     public static void main(String[] args) {
         Scanner leer=new Scanner(System.in);
         System.out.println("Ingrese dos numeros:");
-        int num1=leer.nextInt();
-        int num2=leer.nextInt();
+        int num1=leer.nextInt(), num2=leer.nextInt();
         String rta="n";
         int res;
         while ("n".equals(rta)){
@@ -48,8 +47,7 @@ public class Ejercicio6 {
                 System.out.println(res);
             case 5:
                 System.out.println("Seguro que desea salir?");
-                rta=leer.next();
-                
+                rta=leer.next();      
         }
         }
     }
